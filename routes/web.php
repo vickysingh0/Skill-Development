@@ -1,7 +1,16 @@
 <?php
 
-use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\frontend\HomeController;
+use App\Http\Controllers\frontend\AboutController;
+use App\Http\Controllers\frontend\ContactController;
+use App\Http\Controllers\frontend\LoginController;
+
+use App\Http\Controllers\frontend\RegisterController;
+
+use App\Http\Controllers\frontend\ServiesController;
+
+use
+Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------

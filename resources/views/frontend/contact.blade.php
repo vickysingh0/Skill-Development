@@ -1,4 +1,5 @@
-
+@extends('frontend.layouts.main')
+@section('main-container')
 <!-- breadcrum -->
 <section class="w3l-skill-breadcrum">
   <div class="breadcrum">
@@ -73,3 +74,4 @@
 </section>
 <!-- //contact form -->
   
+@endsection

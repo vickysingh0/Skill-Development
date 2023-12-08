@@ -1,25 +1,5 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
--->
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Skill an Education Category Bootstrap Responsive Website Template - About :: W3Layouts</title>
-
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-  </head>
-  <body>
-
+@extends('frontend.layouts.main')
+@section('main-container')
 <!-- breadcrum -->
 <section class="w3l-skill-breadcrum">
   <div class="breadcrum">
@@ -422,4 +402,4 @@ Author URL: http://w3layouts.com
       <a href="#signup.html" class="btn btn-outline-secondary theme-button ml-2">Sign Up</a>
     </div>
   </section>
-   
+@endsection

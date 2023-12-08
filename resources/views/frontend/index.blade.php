@@ -1,4 +1,5 @@
-
+@extends('frontend.layouts.main')
+@section('main-container')
  <!--  Main banner section -->
  <section class="w3l-main-banner">
    <div class="companies20-content">
@@ -576,5 +577,5 @@
       </div>
     </div>
 </section>
-   
+@endsection
    

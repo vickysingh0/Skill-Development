@@ -1,26 +1,5 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Skill devlopment
-
-    </title>
-
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-  </head>
-  <body>
-
-
-
+@extends('frontend.layouts.main')
+@section('main-container')
 <!-- inner banner -->
 <div class="inner-banner-w3ls py-5" id="home">
     <div class="container py-xl-5 py-lg-3">
@@ -57,7 +36,7 @@
     </div>
 </div>
 <!-- //inner banner -->
-
+@endsection
 
 
 

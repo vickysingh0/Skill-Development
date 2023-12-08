@@ -1,23 +1,5 @@
-
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Skill an Education Category Bootstrap Responsive Website Template - Services :: W3Layouts</title>
-
-    <!-- Google fonts -->
-    <link href="//fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
-
-    <!-- Template CSS -->
-    <link rel="stylesheet" href="assets/css/style-starter.css">
-  </head>
-  <body>
-<!-- header -->
-<!-- //header -->
+@extends('frontend.layouts.main')
+@section('main-container')
 <!-- breadcrum -->
 <section class="w3l-skill-breadcrum">
   <div class="breadcrum">
@@ -181,5 +163,4 @@
     </div>
   </div>
 </section>
-   <!-- footer -->
-   <!-- Footer -->
+@endsection
